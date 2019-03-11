@@ -2,3 +2,9 @@ text-white
 no-underline
 hover:text-white
 hover:no-underline
+w-full
+text-left
+sm:text-center
+md:text-center
+lg:text-left
+xl:text-left

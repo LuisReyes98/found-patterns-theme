@@ -2,7 +2,7 @@ flex
 w-full
 sm:w-full
 md:w-full
-lg:w-1/6
+lg:w-1/5
 xl:w-1/2
 justify-center
 lg:justify-start

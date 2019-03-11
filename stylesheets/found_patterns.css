@@ -2485,4 +2485,8 @@
       .found_nav .nav_link:hover ~ .nav_sub_section {
         display: block; }
 
+.footers_segments {
+  border-left: 1px solid #000;
+  height: auto; }
+
 /*# sourceMappingURL=found_patterns.css.map */
