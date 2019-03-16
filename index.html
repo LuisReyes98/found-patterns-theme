@@ -3,11 +3,19 @@
 
 {% block event_input %}
   {{ super() }}
-  {% set modal_title = "Subscription Plans" %}
+  {# set modal_title = "Subscription Plans" #}
   
   {% include "chunks/subscription_side_modal.html" %}
 
 {% endblock event_input %}
+
+{% block navigation %}
+  <div slide_nav_container>
+    {% include "chunks/nav.html" %}
+    {% include "chunks/slides.html" %}
+  </div>
+
+{% endblock navigation %}
 
 {% block content %}
 
@@ -15,7 +23,6 @@
     
   <!-- call to the slider -->
   
-  {% include "chunks/slides.html" %}
   
 
   <!-- static example of the subscription template -->

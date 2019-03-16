@@ -1,11 +1,5 @@
 {% extends "^/layouts/base.html" %}
 
-{% block head %}
-  {{ super() }}
-  {% include "headers/styles-slideshow.html" %}
-  
-{% endblock head %}
-
 {% block navigation %}
   {% include "chunks/nav.html" %}
 
@@ -13,6 +7,8 @@
 
 {% block style %}
   {{ super() }}  
+  <!-- Slide show styles -->
+  {% include "headers/styles-slideshow.html" %}
   
   <!-- chat styles implementation -->  
   {% include "headers/chat.html" %}

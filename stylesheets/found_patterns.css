@@ -2428,22 +2428,22 @@
     -webkit-transition: none !important;
     transition: none !important; } }
 .found_nav_h {
-  height: 17vh; }
+  height: 90px; }
 
 @media (min-width: 576px) {
   .found_nav_h {
-    height: 17vh; } }
+    height: 90px; } }
 @media (min-width: 768px) {
   .found_nav_h {
-    height: 17vh; } }
+    height: 90px; } }
 @media (min-width: 992px) {
   .found_nav_h {
-    height: 11vh; } }
+    height: 70px; } }
 @media (min-width: 1200px) {
   .found_nav_h {
-    height: 11vh; } }
+    height: 70px; } }
 .found_nav {
-  padding: 5px 0px 5px 0px;
+  padding: 5px 0px;
   overflow: hidden; }
   .found_nav .nav_sub_section {
     z-index: 100;
@@ -2488,5 +2488,24 @@
 .footers_segments {
   border-left: 1px solid #000;
   height: auto; }
+
+.nav_slide_container {
+  height: 100vh; }
+
+.slideshow_height_ {
+  height: calc( 100% - 90px); }
+
+@media (min-width: 576px) {
+  .slideshow_height_ {
+    height: calc( 100% - 90px); } }
+@media (min-width: 768px) {
+  .slideshow_height_ {
+    height: calc( 100% - 90px); } }
+@media (min-width: 992px) {
+  .slideshow_height_ {
+    height: calc( 100% - 70px); } }
+@media (min-width: 1200px) {
+  .slideshow_height_ {
+    height: calc( 100% - 70px); } }
 
 /*# sourceMappingURL=found_patterns.css.map */
